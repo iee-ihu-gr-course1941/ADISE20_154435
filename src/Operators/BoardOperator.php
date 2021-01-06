@@ -1,6 +1,10 @@
 <?php
 
-
+require './src/Constructors/BoardConstructor.php';
+require './src/Constructors/DiceConstructor.php';
+require './src/Constructors/PawnConstructor.php';
+require './src/Constructors/PositionConstructor.php';
+require './src/Constructors/MovementConstructor.php';
 
 class BoardOperator{
 
