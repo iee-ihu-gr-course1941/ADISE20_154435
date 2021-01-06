@@ -58,6 +58,5 @@ while(true){
 }
 
 
-/*Only one functionality missing. To be completed after GameOperator is finished.
-*/
+
 
