@@ -8,13 +8,20 @@ require './src/Constructors/DiceConstructor.php';
 require './src/Constructors/PawnConstructor.php';
 require './src/Constructors/PositionConstructor.php';
 require './src/Constructors/MovementConstructor.php';
+require './src/Parts/Movement.php';
+require './src/Parts/Board.php';
+require './src/Parts/Position.php';
+require './src/Parts/Dice.php';
+require './src/Parts/Pawn.php';
+require './src/Parts/Players.php';
 
-//aythentikopoihsh gia na kalesoyme to api estw thn prwth fora meta apo elenxo
+
  /*session_start();
   if(!isset ($_SESSION['username'])){ 
     $_SESSION['username'] = "";
     
   }*/
+//aythentikopoihsh gia na kalesoyme to api estw thn prwth fora meta apo elenxo
 $username = readline("Enter the Username");
 if($username!="Anastasia"){                         //Username Anastasia
     echo "wrong username. Run the script Again";
