@@ -10,10 +10,15 @@ require './src/Constructors/PositionConstructor.php';
 require './src/Constructors/MovementConstructor.php';
 
 //aythentikopoihsh gia na kalesoyme to api estw thn prwth fora meta apo elenxo
+ /*session_start();
+  if(!isset ($_SESSION['username'])){ 
+    $_SESSION['username'] = "";
+    
+  }*/
 $username = readline("Enter the Username");
 if($username!="Anastasia"){                         //Username Anastasia
     echo "wrong username. Run the script Again";
-    die();
+    die(); 
 }
 
 //print_r(get_included_files());
