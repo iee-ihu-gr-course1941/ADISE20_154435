@@ -4,6 +4,12 @@ require './src/Constructors/DiceConstructor.php';
 require './src/Constructors/PawnConstructor.php';
 require './src/Constructors/PositionConstructor.php';
 require './src/Constructors/MovementConstructor.php';
+require './src/Parts/Movement.php';
+require './src/Parts/Board.php';
+require './src/Parts/Position.php';
+require './src/Parts/Dice.php';
+require './src/Parts/Pawn.php';
+require './src/Parts/Players.php';
 
 class GameOperator{
 
