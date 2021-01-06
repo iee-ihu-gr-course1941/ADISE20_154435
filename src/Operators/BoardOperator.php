@@ -1,6 +1,6 @@
 <?php
 
-use CodeOn\Backgammon\Model\Piece;
+
 
 class BoardOperator{
 
