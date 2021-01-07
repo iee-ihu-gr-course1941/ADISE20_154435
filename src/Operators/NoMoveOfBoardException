@@ -1,0 +1,9 @@
+  
+<?php
+class NoMoveOfBoardException{
+
+public function show(){
+ echo "den mporeis na mazeyeis ";
+ }
+ }
+ ?>
